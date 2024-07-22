@@ -1,0 +1,3 @@
+C:/Users/23916/Desktop/Shuqi/cmake-build-debug/CMakeFiles/Shuqi.dir
+C:/Users/23916/Desktop/Shuqi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/23916/Desktop/Shuqi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

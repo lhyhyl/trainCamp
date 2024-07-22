@@ -1,0 +1,94 @@
+// //键盘输入整数 判断是否为偶数
+// #include<stdio.h>
+// int main(){
+//     int i;
+//     printf("请输入一个整数:");
+//     scanf("%d",&i);
+//     if(i%2==0){
+//         printf("YES");
+//     }else{
+//         printf("NO");
+//     }
+// }
+
+// //接收用户输入的1~7的整数 根据用户输入的整数 输出对应的星期几
+// #include<stdio.h>
+// int main(){
+// int i;
+//     printf("请输入一个1~7整数:");
+//     scanf("%d",&i);
+//     switch(i){
+//         case 1:   printf("星期一\n"); break;
+//         case 2:   printf("星期二\n"); break;
+//         case 3:   printf("星期三\n"); break;
+//         case 4:   printf("星期四\n"); break;
+//         case 5:   printf("星期五\n"); break;
+//         case 6:   printf("星期六\n"); break;
+//         case 7:   printf("星期天\n"); break;
+//         default:  printf("输入错误\n");
+//     }
+// }
+
+// //键盘输入整数月份month 根据月份输出对应季节
+// #include<stdio.h>
+// int main(){
+// int i;
+//     printf("请输入一个1~12月份:");
+//     scanf("%d",&i);
+//     if (i>12||i<0)
+//     {
+//         printf("输入错误\n");
+//         return;
+//     }
+//     i=i-1;      //修正范围
+//     i=i/3;
+//     switch(i){
+//         case 0:   printf("冬季\n"); break;
+//         case 1:   printf("春季\n"); break;
+//         case 2:   printf("夏季\n"); break;
+//         case 3:   printf("秋季\n"); break;
+//     }
+// }
+
+//接收输入的两个数 判断输出较大的那个数
+// #include<stdio.h>
+// int main(){
+//     int i,j;
+//     printf("请输入一个整数:");
+//     scanf("%d",&i);
+//     printf("请输入另一个整数:");
+//     scanf("%d",&j);
+//     if(i>j){
+//         printf("较大的数为：%d",i);
+//     }else{
+//         printf("较大的数为：%d",j);
+//     }
+// }
+
+//接收输入的三个数 判断输出较大的那个数
+#include<stdio.h>
+int main(){
+    int i,j,k;
+    printf("请输入第一个整数:");
+    scanf("%d",&i);
+    printf("请输入第二个整数:");
+    scanf("%d",&j);
+    printf("请输入第三个整数:");
+    scanf("%d",&k);
+    if(i>j){
+        if (i>k)
+        {
+            printf("较大的数为：%d",i);
+        }else{
+            printf("较大的数为：%d",k);
+        }
+    }else{
+        if (j>k)
+        {
+            printf("较大的数为：%d",j);
+        }else{
+            printf("较大的数为：%d",k);
+        }
+    }
+}
+
